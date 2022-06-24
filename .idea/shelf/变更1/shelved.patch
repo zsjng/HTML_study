@@ -1,0 +1,26 @@
+Index: 02.HTML_elements.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02.HTML_elements.html b/02.HTML_elements.html
+new file mode 100644
+--- /dev/null	(date 1656072438181)
++++ b/02.HTML_elements.html	(date 1656072438181)
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>HTML elements</title>
++</head>
++<body>
++<h1>My first heading</h1>
++<h2>second level title</h2>
++<h3>thrid level title</h3>
++<p>My first paragraph</p>
++<p>This is line one<br>This is line two <br>This is line three</p>
++<!--<br> means start with another line. like double space in markdown-->
++</body>
++</html>
+\ No newline at end of file
