@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>HTML Attributes</title>
@@ -7,25 +7,25 @@
 <body>
 <h1>HTML Attributes</h1>
 <h3>The href Attribute</h3>
+<pre>
+    &lt;a href="https://github.com/zsjng">This is my GitHub &lt;/a>
+</pre>
 <p>
     &emsp;<a href="https://github.com/zsjng">This is my GitHub </a>
 </p>
 <p>
-    &emsp;&lta href="https://github.com/zsjng">This is my GitHub &lt/a>
-</p>
-<p>
-    &emsp;<strong>&lta></strong> tells browser this is a hyperlink.
+    &emsp;<strong>&lt;a></strong> tells browser this is a hyperlink.
 </p>
 <p>
     &emsp;<strong>href</strong> specifies the URL of the page the link goes to.
 </p>
-
+<hr>
 <h2>The src Attribute</h2>
+<pre>
+    &lt;img src="my_logo.jpg" alt="this is my local image" width="125" height="125">
+</pre>
 <p>
     &emsp;<img src="my_logo.jpg" alt="this is my local image" width="125" height="125">
-</p>
-<p>
-    &emsp;&ltimg src="my_logo.jpg" alt="this is my local image" width="125" height="125">
 </p>
 <p>
     &emsp;<strong>img</strong> tell browser this is a image.
@@ -39,16 +39,31 @@
 <p>
     &emsp;<strong>width</strong> and <strong>height</strong> are very easy to understand.
 </p>
+<hr>
 
 <h2>The lang Attribute</h2>
-<p>
-    &lthtml lange='xx-YY'>.
-</p>
+<pre>
+    &lt;html lange='xx-YY'>.
+</pre>
 <p>
     &emsp;xx mean what language you use. like <strong>en</strong> or <strong>zh</strong>.
 </p>
 <p>
     &emsp;<strong>-YY</strong> is optional, just add your country code like US or CN.
+</p>
+<hr>
+
+<h2>The title Attribute</h2>
+
+<pre>
+    &lt;p title="when you move your mouse to here, you can see it">
+</pre>
+<p title="when you move your mouse to here, you can see it">
+    &emsp;move your mouse to here.
+</p>
+
+<p>
+    &emsp;<strong>title</strong> when you move your mouse to element, you can see it.
 </p>
 </body>
 </html>
