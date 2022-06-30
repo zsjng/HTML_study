@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <!-- If element not set style it will work as what we set in <style> -->
+    <style>
+        h2 {
+            color: darkkhaki;
+            font-family: "Microsoft YaHei UI",serif;
+            font-size: 200%;
+        }
+        p {
+            color: darkcyan;
+            font-family: Consolas,serif;
+            font-size: 20px;
+            border: 2px solid green;
+            padding: 30px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<h2>HTML CSS</h2>
+<p>
+    <abbr title="Cascading Style Sheets">CSS</abbr> is used to format the layout
+    of a page.
+</p>
+<blockquote cite="https://www.w3schools.com/html/html_css.asp">
+    With CSS, you can control the color, font, the size of text,
+    the spacing between elements,
+    <br>
+    how elements are positioned and
+    laid out, what background images or background colors are to
+    be used,
+    <br>
+    different displays for different devices and screen
+    sizes, and much more!
+</blockquote>
+<p>CSS can be added to HTML in 3 ways:</p>
+<p>
+    Inline CSS: use style attribute inside HTML elements.
+</p>
+<p>
+    Internal CSS: use &lt;style> element in the &lt;head> section.
+</p>
+<p>
+    External CSS: use a &lt;link> element to link a CSS file.
+</p>
+<hr>
+<h2>Inline CSS</h2>
+<p>
+    Inline CSS can just change the single HTML element.
+</p>
+<pre>
+    &lt;p style="color: red">
+        This is the only one HTML element with color red.
+    &lt;/p>
+</pre>
+<p style="color: red">
+    This is the only one HTML element with color red.
+</p>
+<h3 style="color: aqua">This is an aqua color title</h3>
+<p>
+    Why all elements color is darkgreen?just check the sourecs.
+</p>
+<hr>
+<h2>Internal CSS</h2>
+<pre>
+    &lt;!DOCSTYLE html>
+    &lt;html>
+    &lt;head>
+        &lt;style>
+            body {background-color: powderblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+        &lt;/style>
+    &lt;/head>
+    &lt;/html>
+</pre>
+<hr>
+<h2>External CSS</h2>
+<pre>
+    &lt;!DOCTYPE html>
+    &lt;html>
+    &lt;head>
+      &lt;link rel="CSS_file" href="CSS_file.css">
+    &lt;/head>
+    &lt;body>
+        &lt;h1>This is a heading&lt;/h1>
+        &lt;p>This is a paragraph.&lt;/p>
+    &lt;/body>
+    &lt;/html>
+</pre>
+<p>
+    Here is what external CSS file look like:
+</p>
+<pre>
+    body {
+      background-color: green;
+    }
+    h1 {
+      color: yellow;
+    }
+    p {
+      color: blue;
+    }
+</pre>
+<hr>
+<h2>CSS Colors Fonts and Sizes</h2>
+<p>
+    check the sources
+</p>
+</body>
+</html>
