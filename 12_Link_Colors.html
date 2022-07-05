@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Link Colors</title>
+    <style>
+        h2 {
+            padding: 10px;
+            border: 2px deepskyblue solid;
+        }
+
+        p {
+            color: #005544;
+        }
+
+        /* start */
+        a:link {
+            color: greenyellow;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #03ff00;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        /*a hover means when you move your mouse to the link.*/
+        a:hover {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        /*active means when you touch the link.*/
+        a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        /*    end*/
+
+    </style>
 </head>
 <body>
+<h2>
+    HTML link colors
+</h2>
 <p>
-    test
+    HTML Link color have three color:
+    <br>
+    blue : unvisited link
+    <br>
+    purple : visited link
+    <br>
+    red : active link
 </p>
+<p>
+    We can change the link state color by using CSS. eg:
+</p>
+
+<a href="https://www.google.com">click me and see what happened.</a>
+<p></p>
+<a href="https://www.youtube.com" style="padding: 20px 30px;
+                                         color: white;
+                                         text-align: center;
+                                         background-color: orangered;
+                                         display: inline-block;">
+    click here to go to YouTube.
+</a>
+<h2>
+    Link Buttons
+</h2>
+
+
 </body>
 </html>
